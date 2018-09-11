@@ -5,9 +5,15 @@ html {
 h1 {
 	/* vw = viewport width; 1vw = 1% */
 	font-size: 20vw; 
-	text-align: middle;
+	align: middle;
 	color: white;
 	
+}
+
+h2 {
+	font-size: 5vw;
+	text-align: middle;
+	color: white;
 }
 
 body {
