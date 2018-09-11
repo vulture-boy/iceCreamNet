@@ -1,9 +1,19 @@
-header {
-	font-family: "Arial", Arial, sans-serif
+html {
+	font-family: Verdana, sans-serif;
+}
+
+h1 {
+	/* vw = viewport width; 1vw = 1% */
+	font-size: 20vw; 
+	text-align: middle;
+	color: white;
+	
 }
 
 body {
-	background-color: magenta;
+	background-color: blue;
+	font-size: 3vw;
+	color: lightgray;
 }
 div {
 	background-color: cornsilk;
