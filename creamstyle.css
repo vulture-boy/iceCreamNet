@@ -3,20 +3,7 @@ html {
 	background-image: url(images/repeat.png);
 }
 
-h1 {
-	/* vw = viewport width; 1vw = 1% */
-	font-size: 20vw; 
-	align: middle;
-	color: white;
-	
-}
-
-h2 {
-	font-size: 5vw;
-	text-align: middle;
-	color: white;
-}
-
+/* Section Tags */
 body {
 	background-color: blue;
 	padding: 60px;
@@ -28,10 +15,39 @@ div {
 	color: black;
 }
 
+/* Heading Tags */
+h1 {
+	/* vw = viewport width; 1vw = 1% */
+	font-size: 20vw; 
+	align: middle;
+	color: white;
+	
+}
+h2 {
+	font-size: 5vw;
+	text-align: middle;
+	color: white;
+}
+
+/* Anchor */
 a {
 	color: rgb(122,33,33);
 }
-
 a:hover {
 	color: rgb(144,55,55);
+}
+
+/* class Tags */
+.statement {
+	color: pink;
+}
+.sales {
+	color: lime;
+}
+
+/* id Tags */
+#intro-statement {
+	border-top: 1px solid #cccccc;
+	margin-top: 20px;
+	padding-top: 10px; 
 }
