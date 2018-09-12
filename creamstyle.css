@@ -1,6 +1,7 @@
 html {
-	font-family: Verdana, sans-serif;
+	font-family: Georgia, sans-serif;
 	background-image: url(images/repeat.png);
+	font-weight: normal;
 }
 
 /* Section Tags */
@@ -19,13 +20,16 @@ div {
 h1 {
 	/* vw = viewport width; 1vw = 1% */
 	font-size: 20vw; 
-	align: middle;
+	font-weight: 400;
+	letter-spacing: 24px;
+	text-align: center;
+
 	color: white;
 	
 }
 h2 {
 	font-size: 5vw;
-	text-align: middle;
+	text-align: center;
 	color: white;
 }
 
@@ -43,11 +47,12 @@ a:hover {
 }
 .sales {
 	color: lime;
+	text-transform: uppercase;
 }
 
 /* id Tags */
 #intro-statement {
-	border-top: 1px solid #cccccc;
-	margin-top: 20px;
-	padding-top: 10px; 
+	border-top: 3px dotted #cccccc;
+	margin-top: 5%;
+	padding-top: 2%; 
 }
