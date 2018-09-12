@@ -1,5 +1,6 @@
 html {
 	font-family: Verdana, sans-serif;
+	background-image: url(images/repeat.png);
 }
 
 h1 {
@@ -18,9 +19,19 @@ h2 {
 
 body {
 	background-color: blue;
+	padding: 60px;
 	font-size: 3vw;
 	color: lightgray;
 }
 div {
-	background-color: cornsilk;
+	background-color: #dfdfdf;
+	color: black;
+}
+
+a {
+	color: rgb(122,33,33);
+}
+
+a:hover {
+	color: rgb(144,55,55);
 }
