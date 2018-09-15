@@ -7,10 +7,14 @@ function preload() {
 }
 
 function setup() {
-	canvas = createCanvas(windowWidth,windowHeight/2,WEBGL);
+	canvas = createCanvas(windowWidth,windowHeight,WEBGL);
 	canvas.position(0,0);
 	canvas.style('z-index','-1');
 	angleMode(DEGREES);
+}
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -19,7 +23,7 @@ function draw() {
 	directionalLight(255,255,255,0,0,1);
 
 	
-	scale(1.5);
+	scale(3);
 	rotateX(0);
 	rotateY(frameCount * 0.2);
 	rotateZ(180);
@@ -29,6 +33,3 @@ function draw() {
 	model(cream);
 }
 
-function windowResized() {
-	resizeCanvas(windowWidth, windowHeight/2);
-}

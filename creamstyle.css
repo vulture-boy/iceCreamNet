@@ -19,7 +19,7 @@ div {
 /* Heading Tags */
 h1 {
 	/* vw = viewport width; 1vw = 1% */
-	font-size: 20vw; 
+	font-size: 10vw; 
 	font-weight: 400;
 	letter-spacing: 24px;
 	text-align: center;
