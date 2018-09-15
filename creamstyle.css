@@ -6,7 +6,7 @@ html {
 
 /* Section Tags */
 body {
-	background-color: blue;
+	//background-color: blue;
 	padding: 60px;
 	font-size: 3vw;
 	color: lightgray;
@@ -24,13 +24,13 @@ h1 {
 	letter-spacing: 24px;
 	text-align: center;
 
-	color: white;
+	color: black;
 	
 }
 h2 {
 	font-size: 5vw;
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 /* Anchor */
