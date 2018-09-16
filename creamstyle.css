@@ -1,19 +1,19 @@
 html {
 	font-family: Georgia, sans-serif;
-	background-image: url(images/repeat.png);
+	//background-image: url(images/repeat.png);
 	font-weight: normal;
+	color: black;
+}
+
+header {
+	
 }
 
 /* Section Tags */
 body {
-	//background-color: blue;
+	background-color: rgba(0,0,0,0);
 	padding: 60px;
 	font-size: 3vw;
-	color: lightgray;
-}
-div {
-	background-color: #dfdfdf;
-	color: black;
 }
 
 /* Heading Tags */
@@ -23,14 +23,13 @@ h1 {
 	font-weight: 400;
 	letter-spacing: 24px;
 	text-align: center;
-
-	color: black;
-	
 }
+
 h2 {
 	font-size: 5vw;
 	text-align: center;
-	color: black;
+	color: lightgrey;
+	mix-blend-mode: exclusion;
 }
 
 /* Anchor */
