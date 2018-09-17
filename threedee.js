@@ -24,6 +24,7 @@ function setup() {
 	selFlavour = 2;
 	selCone = 1;
 	tipToggle = 0;
+	orbitToggle = 0;
 	tipVal = 0;
 	noCursor();
 }
@@ -34,7 +35,7 @@ function windowResized() {
 
 function draw() {
 	background('rgba(0,0,0,0)');
-	orbitControl();
+	if (orbitToggle) {orbitControl();}
 	ambientLight(233);
 	directionalLight(255,255,255,0,0,1);
 	if (tipToggle != 0)	{tipVal = mouseX*0.3;}
@@ -106,6 +107,11 @@ function keyPressed() {
 		{
 			if (tipToggle == 1) {tipToggle = 0;}
 			else {tipToggle = 1;}
+		}
+	else if (key == 'w') // Enable / Disable Orbit Control
+		{
+			if (orbitToggle == 1) {orbitToggle = 0;}
+			else {orbitToggle = 1;}
 		}
 }
 
