@@ -14,6 +14,7 @@ body {
 	background-color: rgba(0,0,0,0);
 	padding: 60px;
 	font-size: 3vw;
+	color:white;
 }
 
 /* Heading Tags */
@@ -29,7 +30,6 @@ h2 {
 	font-size: 5vw;
 	text-align: center;
 	color: lightgrey;
-	mix-blend-mode: exclusion;
 }
 
 /* Anchor */
